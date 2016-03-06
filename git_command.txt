@@ -1,0 +1,5 @@
+1. git init folderPath
+把目录变成Git可以管理的仓库
+
+example:
+git init D:/Workspace/Git/repository
