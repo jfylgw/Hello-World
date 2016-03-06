@@ -1,5 +1,44 @@
-1. git init folderPath
+1. 
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+配置你的名字和Email地址
+--global  表示你这台机器上所有的Git仓库都会使用这个配置
+也可以对某个仓库指定不同的用户名和Email地址
+
+
+2. git init folderPath
 把目录变成Git可以管理的仓库
 
 example:
 git init D:/Workspace/Git/repository
+
+或者进入到指定目录底下后，执行 git init
+
+
+3. git add folderPath/fileName
+把文件添加到仓库
+
+或者进入到指定目录底下后，执行 git add fileName （fileName可以写多个文件名）
+
+可以多次add不同的文件
+
+
+4. git commit -m "XXX"
+
+把文件提交到仓库
+-m  表示后面输入的是本次提交的说明
+commit可以一次提交很多文件
+
+
+5. git status
+查询仓库当前的状态，如文件有没有被修改过了还没提交
+
+
+6. git diff fileName
+看看指定文件具体修改了什么内容
+
+按ctrl + C 退出查看
+
+
+7. 
